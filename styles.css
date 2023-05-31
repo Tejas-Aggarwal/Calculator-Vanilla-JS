@@ -39,6 +39,9 @@ html{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     font-size: 20px;
+    & > *{
+        font-size:22px;
+    }
     
     
 }
